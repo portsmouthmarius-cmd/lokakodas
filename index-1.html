@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LOKA KODAS | Švietėjiška iniciatyva</title>
+  <style>
+    :root{
+      --bg:#0b1020; --card:#111a33; --soft:#182442; --text:#f4f7fb;
+      --muted:#b8c3d9; --accent:#7dd3fc; --gold:#facc15; --line:#2d3a5c;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#0b1020,#111827);color:var(--text);line-height:1.65}
+    a{color:var(--accent);text-decoration:none}
+    header{padding:72px 22px 56px;text-align:center;border-bottom:1px solid var(--line)}
+    .logo{font-size:42px;font-weight:800;letter-spacing:3px;margin:0}
+    .subtitle{font-size:20px;color:var(--muted);max-width:760px;margin:14px auto 0}
+    nav{position:sticky;top:0;background:rgba(11,16,32,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:10}
+    nav .inner{max-width:1000px;margin:auto;display:flex;gap:16px;justify-content:center;flex-wrap:wrap;padding:12px}
+    nav a{font-weight:700;color:var(--text);font-size:14px}
+    main{max-width:1000px;margin:auto;padding:24px}
+    section{background:rgba(17,26,51,.88);border:1px solid var(--line);border-radius:18px;padding:26px;margin:22px 0;box-shadow:0 18px 40px rgba(0,0,0,.22)}
+    h2{margin:0 0 12px;color:var(--accent);font-size:28px}
+    h3{color:var(--gold);margin-top:24px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .box{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:18px}
+    .box strong{display:block;color:var(--gold);font-size:18px;margin-bottom:8px}
+    .quote{font-size:22px;border-left:4px solid var(--gold);padding-left:18px;color:#fff}
+    .cta{display:inline-block;margin-top:12px;background:var(--accent);color:#07111f;padding:12px 18px;border-radius:999px;font-weight:800}
+    footer{text-align:center;color:var(--muted);padding:36px 20px;border-top:1px solid var(--line)}
+    @media(max-width:760px){
+      .logo{font-size:34px}
+      .subtitle{font-size:18px}
+      .grid{grid-template-columns:1fr}
+      section{padding:20px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="logo">LOKA KODAS</h1>
+    <p class="subtitle">Švietėjiška iniciatyva sąmonės, kritinio mąstymo, filosofijos ir technologijų pažinimui.</p>
+  </header>
+
+  <nav>
+    <div class="inner">
+      <a href="#apie">Apie</a>
+      <a href="#tripolis">Tripolis</a>
+      <a href="#veikla">Veikla</a>
+      <a href="#principai">Principai</a>
+      <a href="#kontaktai">Kontaktai</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="apie">
+      <h2>Apie projektą</h2>
+      <p><strong>LOKA KODAS</strong> – tai švietėjiška erdvė, skirta aiškiau mąstyti, tiksliau kelti klausimus ir giliau suprasti žmogaus santykį su patyrimu, protu, sąmone ir technologijomis.</p>
+      <p>Projektas nėra religinė doktrina, politinė kryptis ar uždara teorija. Tai atvira tyrinėjimo vieta, kur svarbiausia ne autoritetas, o klausimo tikslumas, vidinis nuoseklumas ir gebėjimas atskirti prielaidą nuo argumento.</p>
+    </section>
+
+    <section id="tripolis">
+      <h2>Tripolis</h2>
+      <p><strong>Tripolis</strong> – trijų sąmonės raiškos polių modelis. Jis siūlo žmogaus patyrimą nagrinėti per tris fundamentalias kryptis:</p>
+      <div class="grid">
+        <div class="box"><strong>A – Juslių pasaulis</strong>Kas yra patiriama?</div>
+        <div class="box"><strong>B – Kokybių pasaulis</strong>Kaip tai yra išgyvenama?</div>
+        <div class="box"><strong>C – Santykių dėsningumų pasaulis</strong>Kokie ryšiai ir dėsningumai tai sieja?</div>
+      </div>
+      <p class="quote">Brandi sąmonė nevaldo polių – ji leidžia jiems laiku užleisti vietą vienas kitam.</p>
+      <p>Vėliau čia bus įkeltas pilnas Tripolio tekstas PDF formatu ir patogi skaitymo versija internete.</p>
+    </section>
+
+    <section id="veikla">
+      <h2>Veiklos kryptys</h2>
+      <div class="grid">
+        <div class="box"><strong>Filosofija</strong>Klausimų, sąvokų ir argumentų analizė.</div>
+        <div class="box"><strong>Sąmonės tyrinėjimas</strong>Patyrimo struktūros, kokybės ir proto ribos.</div>
+        <div class="box"><strong>Technologijos</strong>Dirbtinis intelektas, skaitmeninis raštingumas ir žmogaus ateitis.</div>
+      </div>
+    </section>
+
+    <section id="principai">
+      <h2>Pagrindiniai principai</h2>
+      <h3>1. Sąvokos turi būti aiškios</h3>
+      <p>Jeigu sąvoka keičiama diskusijos metu, keičiasi ir pats argumentas. Todėl pirmiausia būtina suprasti, ką tiksliai teigiame.</p>
+      <h3>2. Klausimas nėra silpnumas</h3>
+      <p>Tikslus klausimas gali parodyti daugiau nei ilgas atsakymas. Jis atskleidžia prielaidas, kurios dažnai lieka nepastebėtos.</p>
+      <h3>3. Protas turi ribas</h3>
+      <p>Protas gali aiškinti, modeliuoti ir tikrinti, bet jis neturi būti painiojamas su pačia tikrove ar tiesioginiu išgyvenimu.</p>
+    </section>
+
+    <section id="kontaktai">
+      <h2>Kontaktai</h2>
+      <p>Projektas dar kuriamas. Vėliau čia atsiras kontaktinė forma, PDF biblioteka ir straipsnių skyrius.</p>
+      <p>El. paštas ateityje: <strong>info@lokakodas.lt</strong></p>
+      <a class="cta" href="#apie">Grįžti į pradžią</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 LOKA KODAS. Švietėjiška iniciatyva.
+  </footer>
+</body>
+</html>
